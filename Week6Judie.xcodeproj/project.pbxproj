@@ -14,13 +14,19 @@
 		AB2DC85218C6928300BF831C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DC85118C6928300BF831C /* main.m */; };
 		AB2DC85618C6928300BF831C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DC85518C6928300BF831C /* AppDelegate.m */; };
 		AB2DC85918C6928300BF831C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2DC85718C6928300BF831C /* Main.storyboard */; };
-		AB2DC85C18C6928300BF831C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DC85B18C6928300BF831C /* ViewController.m */; };
 		AB2DC85E18C6928300BF831C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2DC85D18C6928300BF831C /* Images.xcassets */; };
 		AB2DC86518C6928300BF831C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2DC86418C6928300BF831C /* XCTest.framework */; };
 		AB2DC86618C6928300BF831C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2DC84518C6928300BF831C /* Foundation.framework */; };
 		AB2DC86718C6928300BF831C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2DC84918C6928300BF831C /* UIKit.framework */; };
 		AB2DC86F18C6928300BF831C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB2DC86D18C6928300BF831C /* InfoPlist.strings */; };
 		AB2DC87118C6928300BF831C /* Week6JudieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DC87018C6928300BF831C /* Week6JudieTests.m */; };
+		AB2DC87B18C692AA00BF831C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2DC87A18C692AA00BF831C /* MapKit.framework */; };
+		AB2DC87D18C692B100BF831C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2DC87C18C692B100BF831C /* CoreLocation.framework */; };
+		AB2DC88018C692E600BF831C /* StoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DC87F18C692E600BF831C /* StoresViewController.m */; };
+		AB2DC88918C698AA00BF831C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DC88818C698AA00BF831C /* MapViewController.m */; };
+		AB48598118C6AE41001CD558 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB48598018C6AE41001CD558 /* MyAnnotation.m */; };
+		AB48598A18C6C0F5001CD558 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB48598918C6C0F5001CD558 /* DetailViewController.m */; };
+		AB63B43C18E4FD3600A41A4F /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63B43B18E4FD3600A41A4F /* Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +51,24 @@
 		AB2DC85418C6928300BF831C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB2DC85518C6928300BF831C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AB2DC85818C6928300BF831C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB2DC85A18C6928300BF831C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB2DC85B18C6928300BF831C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB2DC85D18C6928300BF831C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB2DC86318C6928300BF831C /* Week6JudieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week6JudieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2DC86418C6928300BF831C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AB2DC86C18C6928300BF831C /* Week6JudieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week6JudieTests-Info.plist"; sourceTree = "<group>"; };
 		AB2DC86E18C6928300BF831C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB2DC87018C6928300BF831C /* Week6JudieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week6JudieTests.m; sourceTree = "<group>"; };
+		AB2DC87A18C692AA00BF831C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AB2DC87C18C692B100BF831C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB2DC87E18C692E600BF831C /* StoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoresViewController.h; sourceTree = "<group>"; };
+		AB2DC87F18C692E600BF831C /* StoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoresViewController.m; sourceTree = "<group>"; };
+		AB2DC88718C698AA00BF831C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		AB2DC88818C698AA00BF831C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		AB48597F18C6AE41001CD558 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		AB48598018C6AE41001CD558 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		AB48598918C6C0F5001CD558 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AB48598B18C6CA70001CD558 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AB63B43A18E4FD3600A41A4F /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		AB63B43B18E4FD3600A41A4F /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2DC87D18C692B100BF831C /* CoreLocation.framework in Frameworks */,
+				AB2DC87B18C692AA00BF831C /* MapKit.framework in Frameworks */,
 				AB2DC84818C6928300BF831C /* CoreGraphics.framework in Frameworks */,
 				AB2DC84A18C6928300BF831C /* UIKit.framework in Frameworks */,
 				AB2DC84618C6928300BF831C /* Foundation.framework in Frameworks */,
@@ -101,6 +119,8 @@
 		AB2DC84418C6928300BF831C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB2DC87C18C692B100BF831C /* CoreLocation.framework */,
+				AB2DC87A18C692AA00BF831C /* MapKit.framework */,
 				AB2DC84518C6928300BF831C /* Foundation.framework */,
 				AB2DC84718C6928300BF831C /* CoreGraphics.framework */,
 				AB2DC84918C6928300BF831C /* UIKit.framework */,
@@ -112,13 +132,21 @@
 		AB2DC84B18C6928300BF831C /* Week6Judie */ = {
 			isa = PBXGroup;
 			children = (
+				AB63B43A18E4FD3600A41A4F /* Location.h */,
+				AB63B43B18E4FD3600A41A4F /* Location.m */,
 				AB2DC85418C6928300BF831C /* AppDelegate.h */,
 				AB2DC85518C6928300BF831C /* AppDelegate.m */,
 				AB2DC85718C6928300BF831C /* Main.storyboard */,
-				AB2DC85A18C6928300BF831C /* ViewController.h */,
-				AB2DC85B18C6928300BF831C /* ViewController.m */,
 				AB2DC85D18C6928300BF831C /* Images.xcassets */,
 				AB2DC84C18C6928300BF831C /* Supporting Files */,
+				AB2DC87E18C692E600BF831C /* StoresViewController.h */,
+				AB2DC87F18C692E600BF831C /* StoresViewController.m */,
+				AB2DC88718C698AA00BF831C /* MapViewController.h */,
+				AB2DC88818C698AA00BF831C /* MapViewController.m */,
+				AB48597F18C6AE41001CD558 /* MyAnnotation.h */,
+				AB48598018C6AE41001CD558 /* MyAnnotation.m */,
+				AB48598B18C6CA70001CD558 /* DetailViewController.h */,
+				AB48598918C6C0F5001CD558 /* DetailViewController.m */,
 			);
 			path = Week6Judie;
 			sourceTree = "<group>";
@@ -249,9 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2DC85C18C6928300BF831C /* ViewController.m in Sources */,
 				AB2DC85618C6928300BF831C /* AppDelegate.m in Sources */,
+				AB63B43C18E4FD3600A41A4F /* Location.m in Sources */,
 				AB2DC85218C6928300BF831C /* main.m in Sources */,
+				AB48598118C6AE41001CD558 /* MyAnnotation.m in Sources */,
+				AB2DC88918C698AA00BF831C /* MapViewController.m in Sources */,
+				AB2DC88018C692E600BF831C /* StoresViewController.m in Sources */,
+				AB48598A18C6C0F5001CD558 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +492,7 @@
 				AB2DC87618C6928300BF831C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB2DC87718C6928300BF831C /* Build configuration list for PBXNativeTarget "Week6JudieTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +501,7 @@
 				AB2DC87918C6928300BF831C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
